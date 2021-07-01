@@ -1,0 +1,38 @@
+.App{
+    
+
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    
+}
+
+.Condition{
+    color: white;
+    font-family: "Barlow";
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.City {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.Header{
+    text-align: center;
+}
+.temperature{
+    font-size: 9rem;
+    font-weight: 600;
+    display: inline-block;
+    background-image: linear-gradient( to bottom, rgb(255, 255, 255), rgba(175, 163, 255, 0.5) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 1;
+}

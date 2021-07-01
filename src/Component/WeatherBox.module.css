@@ -1,0 +1,46 @@
+.temp{
+    
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: -100px;
+    cursor: pointer;
+    
+}
+.temp h1{
+    font-size: 9rem;
+    font-weight: 600;
+    display: inline-block;
+    background-image: linear-gradient( to bottom, rgb(255, 255, 255), rgba(175, 163, 255, 0.5) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 1;
+    margin-left: 40px;
+}
+.temp h5{
+    margin-top: -75px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-image: linear-gradient( to bottom, rgb(255, 255, 255), rgba(175, 163, 255, 0.5) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.icon {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+  }
+  
+.icon img {
+    display: block;
+    max-width: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
